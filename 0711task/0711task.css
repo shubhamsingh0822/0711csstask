@@ -1,0 +1,101 @@
+.header{
+    background-color: dimgrey;
+    display: flex;
+    height: 100px;
+}
+.logo{
+    color: whitesmoke;
+    height: inherit;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.link{
+    color: whitesmoke;
+    height: inherit;
+    width: 70%;
+    display: flex;
+     justify-content: end;
+     margin-top: 40px;
+     margin-right: 20px;
+     font-size: x-large;
+     
+}
+a:link{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    display: flex;
+    height: 600px;
+}
+.cont1{
+    height: inherit;
+    background-color: whitesmoke;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.pf{
+    background-color: dimgray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cont2{
+    height: 580px;
+    background-color: dimgray;
+    width: 20%;
+    color: whitesmoke;
+    font-size: large;
+    margin-top: 20px;
+    margin-right: 5px;
+    text-align: justify;
+}
+.in1{
+    height: 30%;
+    color: dimgray;
+}
+.h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.h31{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.h32{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.in2{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div{
+    border: 5px solid dimgray;
+    margin-left: 20px;
+    height: 200px;
+    width: 350px;
+    margin-top: 10px;
+}
+.card{
+    height: 20%;
+    background-color: dimgray;
+    color: whitesmoke;
+    text-align: start;
+}
+.p{
+    margin-top: 30px;
+}
